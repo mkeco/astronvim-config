@@ -20,20 +20,18 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
     
-    neovide_transparency = 0.0,
+    neovide_transparency = 0.8,
     neovide_confirm_quit = true,
-    transparency = 0.8,
-    neovide_background_color = "#0f1117", 
+   -- neovide_remember_window_size = true,
+     -- transparency = 0.0,
+     neovide_background_color = "#0f1117ff",
+     neovide_floating_blur_amount_x = 2.0,
+     neovide_floating_blur_amount_y = 2.0,
 
-    neovide_remember_window_size = true,
-
-    neovide_floating_blur_amount_x = 2.0,
-    neovide_floating_blur_amount_y = 2.0,
-
-    neovide_floating_shadow = true,
-    neovide_floating_z_height = 10,
-    neovide_light_angle_degrees = 45,
-    neovide_light_radius = 5,
+     neovide_floating_shadow = true,
+     neovide_floating_z_height = 10,
+     neovide_light_angle_degrees = 45,
+     neovide_light_radius = 5,
 
 
     -- only mac true

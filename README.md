@@ -4,7 +4,7 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## 🛠️ Installation
 
-#### Make a backup of your current nvim and shared folder
+#### Make a sharedbnvim and shared folder
 
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
