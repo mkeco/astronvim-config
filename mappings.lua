@@ -32,6 +32,10 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-h>"] = false,
+    ["<C-j>"] = false,
+    ["<C-k>"] = false,
+    ["<C-l>"] = false,
   },
   i = {
     ["<C-b>"] = { "<Left>", desc = "Move left" },

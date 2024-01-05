@@ -33,7 +33,7 @@ return {
       format_on_save = {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
-          -- "go",
+          "go", "python", "rust", "typescript",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
